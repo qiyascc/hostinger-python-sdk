@@ -1,0 +1,4 @@
+api_token = "your-token"
+timeout = 15
+max_retries = 3
+default_ttl = 3600

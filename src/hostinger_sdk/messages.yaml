@@ -1,0 +1,28 @@
+settings:
+  description: Settings for the Hostinger API client.
+  api_token: API token from hpanel.hostinger.com/profile/api.
+  base_url: API URL without any path.
+  api_version: API version that fills the {version} part of every endpoint.
+  endpoints: Path templates for every API call, relative to the base URL.
+  timeout: Seconds to wait for a single request.
+  max_retries: How many times a failed request is tried again.
+  max_retry_wait: Longest wait in seconds the client accepts from a rate limit answer.
+  backoff_base: First backoff delay in seconds, doubled on every retry.
+  backoff_cap: Longest backoff delay in seconds.
+  default_ttl: TTL in seconds used for new records when none is given.
+  user_agent: User-Agent header. {version} is replaced with the package version.
+error:
+  request_failed: Request failed
+  missing_token: Missing token. Pass token, set HOSTINGER_API_TOKEN, or point HOSTINGER_CONFIG at a config file.
+  timeout: 'Request timed out: {error}'
+  connection: 'Connection failed: {error}'
+value:
+  empty_domain: domain must not be empty
+  empty_name: record name must not be empty, use '@' for the apex
+  empty_type: record type must not be empty
+  no_values: at least one record value is required
+  add_needs_records: add() needs at least one DNSRecord
+  foreign_name: '{name!r} is not inside {domain}'
+  nameserver_count: a domain needs between 2 and 4 name servers, got {count}
+  no_tlds: available() needs at least one TLD
+  redirect_type: redirect type must be 301 or 302, got {value!r}
