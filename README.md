@@ -14,7 +14,7 @@ That call makes `shop.example.com` resolve to `203.0.113.10`, replacing any `A` 
 ## Install
 
 ```bash
-pip install git+https://github.com/qiyascc/hostinger-python-sdk.git
+pip install hostinger-python-sdk
 ```
 
 Requires Python 3.10 or newer. Dependencies: [httpx](https://www.python-httpx.org/), [goodconf](https://github.com/lincolnloop/goodconf), pydantic and PyYAML.
@@ -44,7 +44,7 @@ default_ttl = 3600
 With no arguments, the client looks for `hostinger.toml`, `hostinger.yaml`, `hostinger.yml` or `hostinger.json` in the working directory. To load a file from somewhere else, set `HOSTINGER_CONFIG=/path/to/file`, or pass `config_file=` to the client. YAML files need the `yaml` extra, and TOML files on Python 3.10 need the `toml` extra:
 
 ```bash
-pip install "hostinger-python-sdk[yaml] @ git+https://github.com/qiyascc/hostinger-python-sdk.git"
+pip install "hostinger-python-sdk[yaml]"
 ```
 
 | Setting | Env variable | Default |
@@ -311,6 +311,13 @@ ruff check .
 ```
 
 The tests use `httpx.MockTransport`, so they never touch the real API.
+
+## Links
+
+- Source code: [github.com/qiyascc/hostinger-python-sdk](https://github.com/qiyascc/hostinger-python-sdk)
+- PyPI: [pypi.org/project/hostinger-python-sdk](https://pypi.org/project/hostinger-python-sdk/)
+- Project page: [theqiyas.cc/projects/hostinger-python-sdk](https://theqiyas.cc/projects/hostinger-python-sdk/)
+- Author: [Qiyas Sadıqov](https://theqiyas.cc), more projects at [theqiyas.cc](https://theqiyas.cc)
 
 ## License
 
