@@ -1,5 +1,7 @@
 # hostinger-python-sdk
 
+[![PyPI](https://img.shields.io/pypi/v/hostinger-python-sdk?color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/hostinger-python-sdk/)
+
 A small, typed Python client for the Hostinger Domains and DNS API. It works with both sync and async code, waits and retries when Hostinger rate limits you, and returns plain dataclasses, not raw JSON.
 
 ```python
