@@ -1,6 +1,7 @@
 # hostinger-python-sdk
 
 [![PyPI](https://img.shields.io/pypi/v/hostinger-python-sdk?color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/hostinger-python-sdk/)
+[![Docs](https://readthedocs.org/projects/hostinger-python-sdk/badge/?version=latest)](https://hostinger-python-sdk.readthedocs.io/en/latest/)
 
 A small, typed Python client for the Hostinger Domains and DNS API. It works with both sync and async code, waits and retries when Hostinger rate limits you, and returns plain dataclasses, not raw JSON.
 
@@ -316,6 +317,7 @@ The tests use `httpx.MockTransport`, so they never touch the real API.
 
 ## Links
 
+- Documentation: [hostinger-python-sdk.readthedocs.io](https://hostinger-python-sdk.readthedocs.io/en/latest/)
 - Source code: [github.com/qiyascc/hostinger-python-sdk](https://github.com/qiyascc/hostinger-python-sdk)
 - PyPI: [pypi.org/project/hostinger-python-sdk](https://pypi.org/project/hostinger-python-sdk/)
 - Project page: [theqiyas.cc/projects/hostinger-python-sdk](https://theqiyas.cc/projects/hostinger-python-sdk/)
