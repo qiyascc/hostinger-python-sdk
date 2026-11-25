@@ -33,9 +33,9 @@ dev = ["hostinger-python-sdk[toml,yaml]", "pytest>=7", "pytest-asyncio>=0.21", "
 
 [project.urls]
 Documentation = "https://hostinger-python-sdk.readthedocs.io/"
-Homepage = "https://theqiyas.cc/projects/hostinger-python-sdk/"
+Homepage = "https://qiyas.cc/projects/hostinger-python-sdk/"
 Source = "https://github.com/qiyascc/hostinger-python-sdk"
-Author = "https://theqiyas.cc"
+Author = "https://qiyas.cc"
 Issues = "https://github.com/qiyascc/hostinger-python-sdk/issues"
 Changelog = "https://github.com/qiyascc/hostinger-python-sdk/blob/main/CHANGELOG.md"
 

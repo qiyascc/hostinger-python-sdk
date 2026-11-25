@@ -13,8 +13,8 @@ PACKAGE = "hostinger_sdk"
 DIST = "hostinger-python-sdk"
 TITLE = "Hostinger Python SDK"
 REPO = "https://github.com/qiyascc/hostinger-python-sdk"
-SITE = "https://theqiyas.cc"
-PROJECT_PAGE = "https://theqiyas.cc/projects/hostinger-python-sdk/"
+SITE = "https://qiyas.cc"
+PROJECT_PAGE = "https://qiyas.cc/projects/hostinger-python-sdk/"
 
 from hostinger_sdk import __version__ as release
 
@@ -97,6 +97,6 @@ html_theme_options = {
     "footer_icons": [
         {"name": "GitHub", "url": REPO, "html": GITHUB, "class": ""},
         {"name": "PyPI", "url": f"https://pypi.org/project/{DIST}/", "html": PYPI, "class": ""},
-        {"name": "theqiyas.cc", "url": SITE, "html": GLOBE, "class": ""},
+        {"name": "qiyas.cc", "url": SITE, "html": GLOBE, "class": ""},
     ],
 }

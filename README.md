@@ -320,8 +320,8 @@ The tests use `httpx.MockTransport`, so they never touch the real API.
 - Documentation: [hostinger-python-sdk.readthedocs.io](https://hostinger-python-sdk.readthedocs.io/en/latest/)
 - Source code: [github.com/qiyascc/hostinger-python-sdk](https://github.com/qiyascc/hostinger-python-sdk)
 - PyPI: [pypi.org/project/hostinger-python-sdk](https://pypi.org/project/hostinger-python-sdk/)
-- Project page: [theqiyas.cc/projects/hostinger-python-sdk](https://theqiyas.cc/projects/hostinger-python-sdk/)
-- Author: [Qiyas Sadıqov](https://theqiyas.cc), more projects at [theqiyas.cc](https://theqiyas.cc)
+- Project page: [qiyas.cc/projects/hostinger-python-sdk](https://qiyas.cc/projects/hostinger-python-sdk/)
+- Author: [Qiyas Sadıqov](https://qiyas.cc), more projects at [qiyas.cc](https://qiyas.cc)
 
 ## License
 
